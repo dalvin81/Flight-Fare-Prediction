@@ -1,3 +1,6 @@
+# directories to ignore
+mlproject.egg-info/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -123,12 +126,12 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.flightenv
 env/
-venv/
+flightenv/
 ENV/
 env.bak/
-venv.bak/
+flightenv.bak/
 
 # Spyder project settings
 .spyderproject
