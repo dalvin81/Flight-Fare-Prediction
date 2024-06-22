@@ -1,5 +1,9 @@
 import os
 import sys
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+sys.path.insert(0, project_root)
+
 from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
@@ -10,6 +14,8 @@ from src.components.data_transformation import DataTransform
 from src.components.data_transformation import DataTransformConfig
 from src.components.model_trainer import ModelTrainConfig
 from src.components.model_trainer import ModelTrainer
+
+
 
 @dataclass
 class DataIngestionConfig:
@@ -54,5 +60,7 @@ if __name__=="__main__":
     
     model_trainer = ModelTrainer()
     print(model_trainer.initiate_model_training(train_arr, test_arr))
+
+
     
     
