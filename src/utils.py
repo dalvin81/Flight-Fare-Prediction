@@ -59,3 +59,11 @@ def load_object(file_path):
 
     except Exception as e:
         raise CustomException(e, sys)
+    
+def load_preprocessor(file_path):
+    try:
+        with open(file_path, 'rb') as file:
+            preprocessor, label_encoders = pickle.load(file)
+        return preprocessor, label_encoders
+    except Exception as e:
+        raise CustomException(e, sys)
