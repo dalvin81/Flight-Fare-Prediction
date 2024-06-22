@@ -1,5 +1,6 @@
 # directories to ignore
 mlproject.egg-info/
+artifacts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
