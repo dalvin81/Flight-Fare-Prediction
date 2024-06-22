@@ -7,9 +7,9 @@ I have cleaned and transformed dataset (source:[kaggle](https://www.kaggle.com/d
 ## Results
 Home page:
 
-<p align="center"><img src="images/index.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="Images/index.png" alt="Nearby" width="500"/></p>
 
 Prediction page:
 
-<p align="center"><img src="images/home.png" alt="Nearby" width="500"/></p>
+<p align="center"><img src="Images/home.png" alt="Nearby" width="500"/></p>
 
